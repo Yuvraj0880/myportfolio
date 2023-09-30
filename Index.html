@@ -1,0 +1,383 @@
+<html>
+
+<head>
+  <title>
+    title of document
+  </title>
+  <style>
+     .btn1{
+        width: 80px;
+        height: 50px;
+        background-color: wh;
+        position: relative;
+        overflow: hidden;
+        font-size: 30px;
+        padding: 10px,10px;
+        border: none;
+    }
+    .btn1::before{
+        content:"";<html>
+
+<head>
+  <title>
+    title of document
+  </title>
+  <style>
+     .btn1{
+        width: 80px;
+        height: 50px;
+        background-color: wh;
+        position: relative;
+        overflow: hidden;
+        font-size: 30px;
+        padding: 10px,10px;
+        border: none;
+    }
+    .btn1::before{
+        content:"";
+        width: 105px;
+        height: 105px;
+        background-color: white;
+        color: black;
+        position: absolute;
+        mix-blend-mode: difference;
+        border-radius: 50%;
+        left: -15%;
+        top: -75%;
+        transition-duration:0.5s;
+    }
+    .btn1:hover::before{
+        transform: translate(70%,-70%);
+        transition-duration: 0.5s;
+    }
+
+
+
+  .btn2{
+            width: 200px;
+            height: 200px;
+            font-size: 80px;
+            outline: 5px solid red;
+            outline-offset: -15px;
+            margin: 20px;
+            transition: 0.5s ease;
+        }
+        .btn2:hover{
+            outline: 5px solid red;
+            outline-offset: 15px;
+          }
+  </style>
+  
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSSCFvti1xXGY5jsAdvksgxxJIZHAqFWjP8w&usqp=CAU" alt="wecome image" width="1000"
+    height="500"><br>
+  <h2><u>A message from owner</u></h2>
+  <h3><i>Must listen</i></h3>
+  <audio controls autoplay>
+    <source src="3.mp3" type="audio/mpeg">
+    Audio not supported
+  </audio>
+</head>
+
+<body>
+  <nav>
+    <a href="landing page.html">Product website</a><br>
+    <a href="Royal.html">Clone website of rcci world</a>
+    <a href="calculator.html">Calculator</a>
+    <a href="Discount.html">Discount Calculator</a>
+    <br><br>
+      <button class="btn1">HEY</button>
+        <button class="btn2">Hello</button>
+  </nav>
+  <a href="#About">About</a>
+  <a href="#S.M">Social media</a>
+  <a href="#Link">Link</a>
+  <h2 style="color:red;text-align: center;font-size:large;background-color:black;border:5px solid green" id="About">
+    Owner name = <i>Yuvraj</i><br>
+    Photo of owner = <img src="1.jpg" width="50" height="50"><br>
+    Age =19<br>
+    Gender =Male<br>
+    My favourite language<br>
+  </h2>
+  <video controls>
+    <source src="2.mp4" type="video/mp4">
+    Not found
+  </video>
+  <p style="border: 5px inset"><b>This website <strong>is</strong> created <br> to practice html</b></p>
+  <h2 style="border:5px offset" id="S.M">
+    <i>Please subscribe <em>my</em><br>youtube channel</i>
+  </h2>
+  <a href="https://youtube.com/channel/UCqqKZRQ7-RkYkXL_TBAMfPw?sub_confirmation=1">
+    <button><u>
+        <h3>Subscribe</h3>
+      </u></button></a>
+  <!--just a comment-->
+  <h2>
+    <i>Follow me on<br>Instagram</i>
+  </h2>
+  <a href="https://instagram.com/earn_and_grow_online?igshid=ZDc4ODBmNjlmNQ==">
+    <button><u>
+        <h3>Follow</h3>
+      </u></button></a>
+  <li id="Link">
+    Social media accounts link
+  </li>
+  <ol>
+    <li>youtube</li>
+    <li>instagram</li>
+    <ul>
+      <li>first id</li>
+      <li>second id</li>
+    </ul>
+    <li>facebook</li>
+  </ol>
+  <form style="background-color=yellow">
+    <label for="n">Enter your name :</label>
+    <input type="text" id="n" name="Name" placeholder="Name"><br>
+    <label for="e">Enter your e-mail :</label>
+    <input type="email" id="e" name="E-mail" value="example@domain.com"><br>
+    <label for="n">Enter your phone no. :</label>
+    <input type="tel" id="n" name="Phone no."><br>
+    <label for="pass">Password</label>
+    <input type="password" id="pass">
+    <details>
+      <summary>Select your age group</summary>
+      <input type="radio" id="b18" name="Age" value="Below 18">
+      <label for="b18">Below 18</label><br>
+      <input type="radio" id="18-24" name="Age" value="18 to 24">
+      <label for="18-24">18 to 24</label><br>
+      <input type="radio" id="25-49" name="Age" value="25 to 49">
+      <label for="25-49">25 to 49</label><br>
+      <input type="radio" id="50-74" name="Age" value="50 to 74">
+      <label for="50-74">50 to 74</label><br>
+      <input type="radio" id="o75" name="Age" value="Older than 75">
+      <label for="o75">Older than 75</label><br><br>
+    </details>
+    <label for="g">Select your gender:</label>
+    <select id="g" name="Gender">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+    </select><br><br>
+    <select name="Relationship status">
+      <option selected>What is your relationship status</option>
+      <option value="Single">Single</option>
+      <option value="Married">Married</option>
+    </select>
+    <p>Which social media apps do you use?</p>
+    <input type="checkbox" id="ig" name="Social media" value="Instagram">
+    <label for="ig">Instagram</label><br>
+    <input type="checkbox" id="yt" name="Social media" value="Youtube">
+    <label for="yt">Youtube</label><br>
+    <input type="checkbox" id="fb" name="Social media" value="Facebook">
+    <label for="fb">Facebook</label><br>
+    <input type="Submit">
+  </form>
+  <a href="#"><b><u>Go to top</u></b></a>
+  <details>
+    <summary>Type of coding languages</summary>
+    <ul>
+      <li>Python</li>
+      <li>Html</li>
+      <li>Css</li>
+      <li>Javascript</li>
+    </ul>
+  </details>
+  <table style="border:solid;background-color:red;">
+    <tr>
+      <th style="border:solid">Name</th>
+      <th style="border:solid">Class</th>
+      <th style="border:solid">Section</th>
+    </tr>
+    <tr>
+      <td>Honey</td>
+      <td>9th</td>
+      <td rowspan="2" style="border:solid">B</td>
+    </tr>
+    <tr>
+      <td>Nikhil</td>
+      <td>10th</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:solid">Total students</td>
+      <td style="border:solid">2</td>
+    </tr>
+  </table>
+
+  
+  
+  
+</body>
+
+</html
+        width: 105px;
+        height: 105px;
+        background-color: white;
+        color: black;
+        position: absolute;
+        mix-blend-mode: difference;
+        border-radius: 50%;
+        left: -15%;
+        top: -75%;
+        transition-duration:0.5s;
+    }
+    .btn1:hover::before{
+        transform: translate(70%,-70%);
+        transition-duration: 0.5s;
+    }
+
+
+
+  .btn2{
+            width: 200px;
+            height: 200px;
+            font-size: 80px;
+            outline: 5px solid red;
+            outline-offset: -15px;
+            margin: 20px;
+            transition: 0.5s ease;
+        }
+        .btn2:hover{
+            outline: 5px solid red;
+            outline-offset: 15px;
+          }
+  </style>
+  
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSSCFvti1xXGY5jsAdvksgxxJIZHAqFWjP8w&usqp=CAU" alt="wecome image" width="1000"
+    height="500"><br>
+  <h2><u>A message from owner</u></h2>
+  <h3><i>Must listen</i></h3>
+  <audio controls autoplay>
+    <source src="3.mp3" type="audio/mpeg">
+    Audio not supported
+  </audio>
+</head>
+
+<body>
+  <nav>
+    <a href="landing page.html">Product website</a><br>
+    <a href="Royal.html">Clone website of rcci world</a>
+    <a href="calculator.html">Calculator</a>
+    <a href="Discount.html">Discount Calculator</a>
+    <br><br>
+      <button class="btn1">HEY</button>
+        <button class="btn2">Hello</button>
+  </nav>
+  <a href="#About">About</a>
+  <a href="#S.M">Social media</a>
+  <a href="#Link">Link</a>
+  <h2 style="color:red;text-align: center;font-size:large;background-color:black;border:5px solid green" id="About">
+    Owner name = <i>Yuvraj</i><br>
+    Photo of owner = <img src="1.jpg" width="50" height="50"><br>
+    Age =19<br>
+    Gender =Male<br>
+    My favourite language<br>
+  </h2>
+  <video controls>
+    <source src="2.mp4" type="video/mp4">
+    Not found
+  </video>
+  <p style="border: 5px inset"><b>This website <strong>is</strong> created <br> to practice html</b></p>
+  <h2 style="border:5px offset" id="S.M">
+    <i>Please subscribe <em>my</em><br>youtube channel</i>
+  </h2>
+  <a href="https://youtube.com/channel/UCqqKZRQ7-RkYkXL_TBAMfPw?sub_confirmation=1">
+    <button><u>
+        <h3>Subscribe</h3>
+      </u></button></a>
+  <!--just a comment-->
+  <h2>
+    <i>Follow me on<br>Instagram</i>
+  </h2>
+  <a href="https://instagram.com/earn_and_grow_online?igshid=ZDc4ODBmNjlmNQ==">
+    <button><u>
+        <h3>Follow</h3>
+      </u></button></a>
+  <li id="Link">
+    Social media accounts link
+  </li>
+  <ol>
+    <li>youtube</li>
+    <li>instagram</li>
+    <ul>
+      <li>first id</li>
+      <li>second id</li>
+    </ul>
+    <li>facebook</li>
+  </ol>
+  <form style="background-color=yellow">
+    <label for="n">Enter your name :</label>
+    <input type="text" id="n" name="Name" placeholder="Name"><br>
+    <label for="e">Enter your e-mail :</label>
+    <input type="email" id="e" name="E-mail" value="example@domain.com"><br>
+    <label for="n">Enter your phone no. :</label>
+    <input type="tel" id="n" name="Phone no."><br>
+    <label for="pass">Password</label>
+    <input type="password" id="pass">
+    <details>
+      <summary>Select your age group</summary>
+      <input type="radio" id="b18" name="Age" value="Below 18">
+      <label for="b18">Below 18</label><br>
+      <input type="radio" id="18-24" name="Age" value="18 to 24">
+      <label for="18-24">18 to 24</label><br>
+      <input type="radio" id="25-49" name="Age" value="25 to 49">
+      <label for="25-49">25 to 49</label><br>
+      <input type="radio" id="50-74" name="Age" value="50 to 74">
+      <label for="50-74">50 to 74</label><br>
+      <input type="radio" id="o75" name="Age" value="Older than 75">
+      <label for="o75">Older than 75</label><br><br>
+    </details>
+    <label for="g">Select your gender:</label>
+    <select id="g" name="Gender">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+    </select><br><br>
+    <select name="Relationship status">
+      <option selected>What is your relationship status</option>
+      <option value="Single">Single</option>
+      <option value="Married">Married</option>
+    </select>
+    <p>Which social media apps do you use?</p>
+    <input type="checkbox" id="ig" name="Social media" value="Instagram">
+    <label for="ig">Instagram</label><br>
+    <input type="checkbox" id="yt" name="Social media" value="Youtube">
+    <label for="yt">Youtube</label><br>
+    <input type="checkbox" id="fb" name="Social media" value="Facebook">
+    <label for="fb">Facebook</label><br>
+    <input type="Submit">
+  </form>
+  <a href="#"><b><u>Go to top</u></b></a>
+  <details>
+    <summary>Type of coding languages</summary>
+    <ul>
+      <li>Python</li>
+      <li>Html</li>
+      <li>Css</li>
+      <li>Javascript</li>
+    </ul>
+  </details>
+  <table style="border:solid;background-color:red;">
+    <tr>
+      <th style="border:solid">Name</th>
+      <th style="border:solid">Class</th>
+      <th style="border:solid">Section</th>
+    </tr>
+    <tr>
+      <td>Honey</td>
+      <td>9th</td>
+      <td rowspan="2" style="border:solid">B</td>
+    </tr>
+    <tr>
+      <td>Nikhil</td>
+      <td>10th</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:solid">Total students</td>
+      <td style="border:solid">2</td>
+    </tr>
+  </table>
+
+  
+  
+  
+</body>
+
+</html
